@@ -89,7 +89,6 @@ export default function ProgramsSection() {
                 transition={{ delay: index * 0.08 }}
                 className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
               >
-                {/* Image Placeholder */}
                 <div
                   className={`${program.color} h-40 sm:h-48 relative flex items-center justify-center`}
                 >
