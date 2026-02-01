@@ -34,7 +34,6 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white border-t-4 border-teal-600 mt-20">
-      {/* Newsletter Section */}
       <div className="border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 sm:gap-6">
@@ -62,10 +61,8 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-3 gap-12 lg:gap-16">
-          {/* Contact Us */}
           <div>
             <h4 className="font-bold text-lg mb-6 text-gray-400 uppercase tracking-wide">
               Contact Us
@@ -87,7 +84,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="font-bold text-lg mb-6 text-gray-400 uppercase tracking-wide">
               Quick Links
@@ -106,7 +102,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Follow Us */}
           <div>
             <h4 className="font-bold text-lg mb-6 text-gray-400 uppercase tracking-wide">
               Follow Us
@@ -131,7 +126,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
@@ -153,7 +147,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Made by Credit */}
       <div className="bg-gray-950 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <p className="text-gray-600 text-xs text-center">

@@ -163,13 +163,13 @@ export default function Navbar() {
             {/* Logo */}
             <div className="relative z-10 flex items-center gap-3 cursor-pointer">
               <div className="relative w-9 h-9">
-                <Image
-                  src="/logo.png"
-                  alt="Risk Inn"
-                  fill
-                  className="object-contain"
-                  priority
-                />
+              <Image
+                src="/logo.png"
+                alt="Risk Inn"
+                fill
+                className="object-contain"
+                priority
+              />
               </div>
             </div>
 

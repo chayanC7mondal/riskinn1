@@ -14,7 +14,7 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/image.png"
+          src="image.png"
           alt="Finance professionals in seminar"
           className="w-full h-full object-cover opacity-30"
         />
